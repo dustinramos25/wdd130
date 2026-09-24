@@ -23,24 +23,26 @@ div {
 
 .flex {
     background-color: #aba;
-    /* write declarations here */
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
 }
 
 .grid {
     background-color: #abb;
-    /* enter declarations here */
+    display: grid;
+    place-items: center;
 
 }
 
-.container2 {
-    /* write declarations here */
-
-}
+.container2 {}
 
 .two {
     background-color: #ace;
     height: 100px;
+    display: flex;
+
 }
 
 .container3 {
