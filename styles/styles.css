@@ -1,19 +1,19 @@
-:root {
-    --primary-color: darkblue;
-    --image-width: 150px;
-    --image-paddding: 2px;
-    --image-shadow: 0 0 30xp gray;
-}
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-nav {
-    background-color: var(--primary-color);
+main {
+    max-width: 840px;
     padding: 10px;
+
+}
+
+nav {
+    background-color: darkblue;
+    padding: 10px;
+
 }
 
 nav a {
@@ -23,47 +23,42 @@ nav a {
 }
 
 h1 {
-    color: var(--primary-color);
+    color: darkblue;
 }
 
 img {
-    width: var(--image-width);
+    max-width: 200px;
     height: auto;
     border: 1xp solid black;
-    padding: var(--image-paddding);
-    box-shadow: var(--image-shadow);
-}
-
-main img {
-    width: var(--image-width);
-    height: auto;
-    border: 1px solid steelblue;
-    padding: var(--image-paddding);
-    box-shadow: var(--image-shadow);
-}
-
-p {
-    padding: 0px;
+    padding: 2px;
+    box-shadow: 0 0 30xp gray;
 }
 
 aside {
     width: 20em;
-    margin: 1em;
-    border: 1px solid rgb(0, 0, 0, 0.2);
-    padding: 1em;
-    background-color: #eee;
-    color: #333;
     text-align: center;
+    position: relative;
+}
+
+aside h2 {
+    position: absolute;
+    top: 30px;
+    left: 120px;
 }
 
 aside img {
-    width: 200px;
+    max-width: 200px;
     height: auto;
 }
 
 main img {
-    /* you most likely will have other CSS declarations here */
+    width: 150px;
+    height: auto;
     float: right;
+}
+
+p {
+    padding: 0;
 }
 
 footer {
@@ -72,18 +67,11 @@ footer {
     text-align: center;
 }
 
+/* class selector*/
 .box {
     margin: 1rem;
-    border: 1px solid rgb(0 0 0 / 10%);
     padding: 1rem;
-    background-color: #ddd;
-    color: #000;
+    border: 1px solid rgb(0, 0, 0, 0.2);
+    background-color: #eee;
+    color: #333;
 }
-
-aside h2 {
-    position: absolute;
-    top: 47px;
-    left: 150px;
-}
-
-/* Selectores de clase */
