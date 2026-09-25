@@ -1,7 +1,6 @@
 :root {
     --primary-color: #055a05;
     --secondary-color: #f4a261;
-    /* Reincorporada para usarla en el hover */
     --accent1-color: #264653;
     --accent2-color: #e9c46a;
     --heading-font: "Times New Roman", "Georgia", serif;
@@ -30,7 +29,6 @@ header {
     background-color: var(--primary-color);
     color: var(--accent2-color);
     padding: 15px;
-    /* Añadido un pequeño espacio interno de cortesía */
 }
 
 header nav a {
@@ -66,8 +64,6 @@ article {
     text-decoration: none;
 }
 
-/* === SECCIÓN HERO (SUPERPOSICIONES COMPLETAS) === */
-
 .hero {
     position: relative;
 }
@@ -89,7 +85,6 @@ article {
     color: #fff;
 }
 
-/* Regla requerida por el validador */
 .hero article {
     position: absolute;
     bottom: 20px;
