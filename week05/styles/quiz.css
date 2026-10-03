@@ -1,0 +1,11 @@
+:root {
+    --primary-color: #000800;
+    --background-gray: #e8e8ee;
+    --s
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
