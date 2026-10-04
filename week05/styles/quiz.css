@@ -59,7 +59,7 @@ code {
     font-style: bold;
 }
 
-input [type="text"],
+input[type="text"],
 input[type="number"],
 textarea,
 select {
